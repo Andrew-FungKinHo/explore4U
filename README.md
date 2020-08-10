@@ -1,9 +1,12 @@
 # Background
 With the resurgence of COVID-19 cases in Hong Kong and around the world, international travel becomes nearly impossible because of the travel restrictions imposed. Citizens are eager to go outside, yet, given the staggering numbers, they are having second thoughts. This raises the question: is there a safe way to still go on adventures and explore Hong Kong right now? Introducing our innovation - EXPLORE4U.
 
-# explore4U
-EXPLORE4U is a mobile app which aims at helping users explore the local community in a personalized and safe manner.
-Here is a demonstration of mapping covid-19 cases and local travel attractions in Hong Kong using Google Maps API and Geocoding API
+# EXPLORE4U
+EXPLORE4U is a mobile app which aims at helping users explore the local community in a personalized and safe manner, as a hackathon idea in the travel track for Hack Viral 2020.
+UI/UX Interactive Link: https://www.figma.com/file/thqENL4P954ltyGo4P3wqo/explore4U?node-id=0%3A1 
+Final Pitch Video: https://youtu.be/RaAdIW576VU
+
+Here is a demonstration of mapping covid-19 cases and local travel attractions in Hong Kong using [Google Maps Javascript API](https://developers.google.com/maps/documentation/javascript/overview) and [Geocoding API](https://developers.google.com/maps/documentation/geocoding/overview)
 
 ![Image of UI](https://github.com/Andrew-FungKinHo/explore4U/blob/master/assets/mapping-preview.jpeg)
 
@@ -15,5 +18,4 @@ Stay safe. Stay Active. Stay Adventurous.
 You will need to have an API key to be able to display the data on the Google Maps interface.
 For registration, go to: https://console.developers.google.com/?hl=zh-tw and make sure to enable Google Maps API and Geocoding API.
 
-With a valid key, go to `index.html`
-and change the placeholder YOUR_API_KEY to the your actual token and you will able to view the results.
+With a valid key, go to `index.html` and change the placeholder YOUR_API_KEY to the your actual token and you will able to view the results.
