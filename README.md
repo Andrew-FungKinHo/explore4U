@@ -5,6 +5,8 @@ With the resurgence of COVID-19 cases in Hong Kong and around the world, interna
 EXPLORE4U is a mobile app which aims at helping users explore the local community in a personalized and safe manner.
 Here is a demonstration of mapping covid-19 cases and local travel attractions in Hong Kong using Google Maps API and Geocoding API
 
+![Image of UI](https://github.com/Andrew-FungKinHo/explore4U/blob/master/assets/mapping-preview.jpeg)
+
 We present to you an opportunity to share your stories and special experiences so others can share the same feeling. Explore local culture, food, and traditions through our interactive map and regular video inputs/updates from our users. 
 
 Stay safe. Stay Active. Stay Adventurous.
