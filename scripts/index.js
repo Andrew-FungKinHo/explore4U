@@ -1,3 +1,10 @@
+function passvalue(){
+    const API_KEY = document.getElementById("API_KEY").value;
+    localStorage.setItem("API_KEY", API_KEY);
+    console.log("API Key entered: " + API_KEY);
+    
+}
+
 function initMap() {
     // Map options
     var options = {

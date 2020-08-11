@@ -16,14 +16,22 @@
 
 <body>
   <h1>explore4U Test map</h1>
+  <form>
+    <input type="text" id="API_KEY" placeholder="Enter your API Key">
+    <input type="submit" value="Enter" onclick="passvalue()">
+  </form>
+
   <div id="map"></div>
 
-  <!-- <script src="./scripts/index.js"></script> -->
-  <script type="text/javascript" src="./scripts/data.js" ></script>
+  <script type="text/javascript" src="./scripts/data.js"></script>
   <script type="text/javascript" src="./scripts/index.js"></script>
-  <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
+  <script async defer id="result"></script>
+  <script>
+    document.getElementById("result").src = "https://maps.googleapis.com/maps/api/js?key=" + localStorage.getItem("API_KEY") + "&callback=initMap";
   </script>
-  </body>
+
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key={{API_KEY}}&callback=initMap"> -->
+  <!-- </script> -->
+</body>
 
 </html>
