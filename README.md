@@ -21,4 +21,4 @@ Stay safe. Stay Active. Stay Adventurous.
 You will need an API key to be able to display the data on the Google Maps interface.
 For registration, go to: https://console.developers.google.com/?hl=zh-tw and make sure to enable Google Maps API and Geocoding API.
 
-With a valid key, go to `index.html` and change the placeholder `YOUR_API_KEY` to the your actual token and you will able to view the results.
+With a valid key, go to `index.html` and type `YOUR_API_KEY` to the your actual token in the html input and you will able to view the results.
